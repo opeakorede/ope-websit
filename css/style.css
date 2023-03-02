@@ -1,0 +1,284 @@
+		/*reseting my page*/
+		body{
+			padding:0;
+			margin:0;
+			box-sizing:border-box;
+		}
+
+		/*header setting*/
+
+		header{
+			background-image: url('../images/bk-pics.jpg');
+			background-size: cover;
+			padding-bottom: 20rem;
+
+		}
+		/*Navigation setting starts here*/
+		nav{
+			display: flex;
+			justify-content: space-around;
+			padding: 1rem;
+
+		}
+
+		nav > ul{
+			display: flex;
+			list-style-type: none;
+			color: white;
+
+		}
+
+		nav a{
+			text-decoration: none;
+			margin: 0rem 2rem;
+			color: white;
+		}
+
+
+
+		#say-hello > li{
+			list-style-type: none;
+			margin: 1.1rem 1.1rem 2rem 1.1rem;
+
+		}
+
+		#say-hello a {
+			text-decoration: underline;
+			text-decoration-color: #615CFD;
+			padding-bottom: 2rem;
+			text-decoration-thickness: 0.2rem;
+
+		}
+
+
+
+		#startup > h3{
+			color: white;
+			font-family: sans-serif;
+			line-height: 75px;
+			font-size: 80px;
+			font-weight: 450;
+			margin-bottom: 60px;
+			padding-left: 13rem;
+			margin-top: 12rem;
+
+		}
+
+		#link{
+			text-decoration: none;
+			color: white;
+			background-color: #615CFD;
+			padding: 15px 30px;
+			border-radius: 25px;
+			font-family: sans-serif;
+			font-size: 15px;
+			font-weight: 500;
+			margin-left: 13.3rem;
+			margin-bottom: 6rem;
+
+		}
+
+		/*Navigation setting ends here*/
+
+
+
+		/*main starts here*/
+
+			/*services style starts here*/
+		#services{
+			margin-top: 6rem;
+
+		}
+		#services > h3{
+			color: #615CFD;
+			font-weight: 500;
+			text-align: center;
+			font-size: 14px;
+		}
+
+		#services > p{
+			text-align: center;
+			font-family: sans-serif;
+			font-weight: 500;
+			font-size: 2.3rem;
+		}
+
+		/*services style ends here*/
+
+		/*About us section starts here*/
+
+		#about-us > #container{
+			background-color: black;
+			display: flex;
+			padding-bottom: 0;
+		}
+
+		#about{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			padding-left: 4rem;
+			font-family: sans-serif;
+
+
+		}
+
+		#about > .about-us{
+			text-decoration: none;
+			color: white;
+			background-color: #615CFD;
+			padding: 15px 30px;
+			border-radius: 25px;
+			font-family: sans-serif;
+			font-size: 15px;
+			font-weight: 500;
+			width: 12%;
+			margin-top: 3rem;
+
+		}
+
+		#about > h3{
+			color: white;
+			font-size: 13px;
+			font-family: sans-serif;
+			font-weight: 500;
+			
+
+		}
+
+		#about > h2{
+			color: white;
+			font-size: 30px;
+			font-family: sans-serif;
+			font-weight: 500;
+		}
+
+		#about > p{
+			color: white;
+		}
+
+		.images{
+			width: 750px;
+			height: 680px;
+		}
+
+		/*About us section ends here*/
+
+
+		/*Feature section starts here*/
+
+		#featured-works > h3{
+			color: black;
+			font-size: 32px;
+			text-align: center;
+			line-height: 42px;
+			font-weight: 500;
+			font-family: sans-serif;
+			padding-top: 6rem;
+		}
+
+		#featured-works > p{
+			text-align: center;
+			color: gray;
+			font-family: sans-serif;
+			font-size: 15px;
+
+		}
+
+		.square-img{
+			width: 420px;
+			height: 428px;
+			margin-left: 1rem;
+
+		}
+
+		#featured-img{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 3.5rem;
+
+
+		}
+
+		#width-img{
+			width: 850px;
+			margin-right: 0.5rem;
+			height: 427px;
+		}
+
+		#last-3{
+			margin-top: 1rem;
+
+		}
+
+		#first-2 > img{
+			border-radius: 1rem;
+		}
+
+		#last-3 > img{
+			border-radius: 1rem;
+		}
+
+		#hw-images > img{
+			width: 700px;
+			height: 700px;
+			border-radius: 1rem;
+			align-items: center;
+			margin-left: 4rem;
+
+		}
+
+		#how-we-work{
+			display: flex;
+			margin-top: 8rem;
+			text-align: left;
+			font-family: sans-serif;
+			align-items: center;
+			padding-left: 6rem;
+		}
+
+		#how-we > h2{
+			font-family: sans-serif;
+			font-weight: 500;
+			font-size: 35px;
+		}
+
+		/*The creative team section starts here*/
+
+		#creative-team > h3{
+			color: black;
+			font-size: 32px;
+			text-align: center;
+			line-height: 42px;
+			font-weight: 500;
+			font-family: sans-serif;
+			padding-top: 6rem;	
+		}
+
+		#creative-team > p{
+			text-align: center;
+			color: gray;
+			font-family: sans-serif;
+			font-size: 15px;
+		}
+
+		#creative-img{
+			/*width: 150px;
+			height: 180px;*/
+			display: flex;
+			padding: 3rem;
+			align-items: center;
+			justify-content: space-around;
+
+
+		}
+
+		.creat{
+			margin-left: 1rem;
+			width: 280px;
+			height: 320px;
+			border-radius: 1rem;
+		}
+
+		/*The creative team section ends here*/
