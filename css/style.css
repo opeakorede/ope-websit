@@ -368,33 +368,50 @@
 			border: 1px #C9C9C9;
 		}
 
+		#text{
+			border-radius: 1.5rem;
+			padding-top: 1rem;
+			padding-left: 1rem;
+			margin-bottom: 1rem;
+		}
+
+		#place{
+/*			display: flex;*/
+			align-content: center;
+		}
 
 		.name{
 			height: 50px;
-			width: 28%;
+			width: 27%;
 			border-radius: 2rem;
 			padding-left: 0.4rem;
+			margin-right: 2rem;
+			border: solid 0.5px gray;
 		}
 
 		.email{
 			height: 50px;
-			width: 28%;
+			width: 27%;
 			border-radius: 3rem;
 			padding-left: 0.4rem;
+			margin-bottom: 1rem;
+			border: solid 0.5px gray;
 		}
 
 		.subject{
 			height: 50px;
-			width: 57%;
+			width: 59%;
 			border-radius: 3rem;
 			padding-left: 0.4rem;
+			margin-bottom: 1rem;
+			border: solid 0.5px gray;
 
 		}
 
 		.message{
-			height: 150px;
-			width: 57%;
+
 			border-radius: 2rem;
+
 
 		}
 
@@ -409,6 +426,9 @@
 			font-weight: 500;
 			text-align: center;
 			width: 100%;
+			padding: 1rem 20rem;
+			
+
 		}
 
 		#footer-section{
