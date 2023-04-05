@@ -13,12 +13,21 @@
 			background-size: cover;
 			padding-bottom: 20rem;
 
+
 		}
+
+	
+		#say-hello a:hover{
+			color:#615CFD;
+		}
+		
+
 		/*Navigation setting starts here*/
 		nav{
 			display: flex;
 			justify-content: space-around;
 			padding: 1rem;
+
 
 		}
 
@@ -33,6 +42,11 @@
 			text-decoration: none;
 			margin: 0rem 2rem;
 			color: white;
+		}
+
+		nav a:hover{
+			color:#615CFD;
+			margin: 0.3rem 2.3rem;
 		}
 
 
@@ -79,6 +93,12 @@
 
 		}
 
+		#link:hover{
+			box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+			padding: 18px 33px; ;
+		}
+
+
 		/*Navigation setting ends here*/
 
 
@@ -97,11 +117,19 @@
 			font-size: 14px;
 		}
 
+		#services > h3:hover{
+			font-size: 16px;
+		}
+
 		#services > p{
 			text-align: center;
 			font-family: sans-serif;
 			font-weight: 500;
 			font-size: 2.3rem;
+		}
+
+		#services > p:hover{
+			font-size: 2.5rem;
 		}
 
 		/*services style ends here*/
@@ -137,6 +165,12 @@
 			margin-top: 3rem;
 
 		}
+
+		#about > .about-us:hover{
+			padding: 18px 33px;
+			box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+		} 
 
 		#about > h3{
 			color: white;
@@ -178,6 +212,12 @@
 			padding-top: 6rem;
 		}
 
+
+
+		#featured-works > h3:hover{
+			font-size: 34px;
+		}
+
 		#featured-works > p{
 			text-align: center;
 			color: gray;
@@ -186,12 +226,18 @@
 
 		}
 
+		#featured-works >p:hover{
+			font-size: 16px;
+		}
+
 		.square-img{
 			width: 420px;
 			height: 428px;
 			margin-left: 1rem;
 
 		}
+
+		
 
 		#featured-img{
 			display: flex;
@@ -215,11 +261,17 @@
 
 		#first-2 > img{
 			border-radius: 1rem;
+			box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 		}
 
 		#last-3 > img{
 			border-radius: 1rem;
+			box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
 		}
+
+
+
 
 		#hw-images > img{
 			width: 700px;
@@ -227,6 +279,7 @@
 			border-radius: 1rem;
 			align-items: center;
 			margin-left: 4rem;
+			box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 
 		}
 
@@ -245,6 +298,10 @@
 			font-size: 35px;
 		}
 
+		#how-we > h2:hover{
+			font-size: 37px;
+		}
+
 		/*The creative team section starts here*/
 
 		#creative-team > h3{
@@ -255,6 +312,10 @@
 			font-weight: 500;
 			font-family: sans-serif;
 			padding-top: 6rem;	
+		}
+
+		#creative-team > h3:hover{
+			font-size: 34px;
 		}
 
 		#creative-img .name_info{
@@ -311,6 +372,12 @@
 
 
 		}
+		#creative-img .creat:hover{
+			width: 295px;
+			height: 335px;
+			box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+		}
 
 		.creat{
 			margin-left: 1rem;
@@ -350,6 +417,11 @@
 			font-weight: 500;
 			font-family: sans-serif;
 			padding-top: 5rem;
+
+		}
+
+		#get-in-touch-section > h3:hover{
+			font-size: 34px;
 		}
 
 		#get-in-touch-section > p{
@@ -357,6 +429,10 @@
 			color: gray;
 			font-family: sans-serif;
 			font-size: 15px;
+		}
+
+		#get-in-touch-section > p:hover{
+			font-size: 17px;
 		}
 
 
@@ -387,6 +463,7 @@
 			padding-left: 0.4rem;
 			margin-right: 2rem;
 			border: solid 0.5px gray;
+			box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 		}
 
 		.email{
@@ -396,6 +473,7 @@
 			padding-left: 0.4rem;
 			margin-bottom: 1rem;
 			border: solid 0.5px gray;
+			box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 		}
 
 		.subject{
@@ -405,6 +483,7 @@
 			padding-left: 0.4rem;
 			margin-bottom: 1rem;
 			border: solid 0.5px gray;
+			box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 
 		}
 
@@ -413,13 +492,13 @@
 			border-radius: 2rem;
 
 
+
 		}
 
 		#send-message{
 			text-decoration: none;
 			color: white;
 			background-color: #615CFD;
-			padding: 15px 30px;
 			border-radius: 25px;
 			font-family: sans-serif;
 			font-size: 15px;
@@ -428,6 +507,12 @@
 			width: 100%;
 			padding: 1rem 20rem;
 			
+
+		}
+
+		#send-message:hover{
+			padding: 1.3rem 20.5rem;
+			box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 
 		}
 
@@ -444,6 +529,10 @@
 	
 		#footer-links li{
 			display: flex;
+		}
+
+		#footer-links a:hover{
+			color:#615CFD;;
 		}
 
 
